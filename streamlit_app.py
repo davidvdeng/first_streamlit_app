@@ -51,7 +51,7 @@ streamlit.write('The user entered', fruit_choice)
 # output it the screen as a table
 
 # Don't run anything past here while we troubleshout
-streamlit.stop()
+#streamlit.stop()
 
 my_cur = my_cnx.cursor()
 my_cur.execute("SELECT * from fruit_load_list")
